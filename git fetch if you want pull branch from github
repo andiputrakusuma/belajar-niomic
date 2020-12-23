@@ -1,0 +1,58 @@
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e
+$ ls
+ Android/                      Unattend.xml   efi/
+ KARTU_0001620317068.pdf       autorun.inf    setup.exe*
+ LOST.DIR/                     boot/          sources/
+'Mockup_Lanyard Case.psd'      bootmgr        support/
+'System Volume Information'/   bootmgr.efi*
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e
+$ pwd
+/e
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e
+$ git fetch && git checkout staging
+fatal: not a git repository (or any of the parent directories): .git
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e
+$ git clone https://github.com/andiputrakusuma/belajar-niomic.git
+Cloning into 'belajar-niomic'...
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 21 (delta 6), reused 15 (delta 3), pack-reused 0
+Receiving objects: 100% (21/21), 3.97 KiB | 338.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e
+$ git fetch && git checkout staging
+fatal: not a git repository (or any of the parent directories): .git
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e
+$ ls
+ Android/                      Unattend.xml      bootmgr.efi*
+ KARTU_0001620317068.pdf       autorun.inf       efi/
+ LOST.DIR/                     belajar-niomic/   setup.exe*
+'Mockup_Lanyard Case.psd'      boot/             sources/
+'System Volume Information'/   bootmgr           support/
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e
+$ cd belajar-niomic/
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e/belajar-niomic (main)
+$ git fetch && git checkout staging
+Switched to a new branch 'staging'
+Branch 'staging' set up to track remote branch 'staging' from 'origin'.
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e/belajar-niomic (staging)
+$ git branch
+  main
+* staging
+
+Andi PC@DESKTOP-OP3DGEI MINGW64 /e/belajar-niomic (staging)
+$
+
+
+
+
